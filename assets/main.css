@@ -1,0 +1,31 @@
+/* remove default padding and margin */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.remita-nav-bg {
+    background-image: url('/assets/header-bg-light.png');
+}
+
+
+.container::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    top:0;
+    left: 0;
+    border-top: 2px solid orangered;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.btn-success{
+    
+    border-radius: none;
+ 
+    
+}
