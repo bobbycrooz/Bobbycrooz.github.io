@@ -23,9 +23,17 @@
     text-align: center;
 }
 
-.btn-success{
-    
-    border-radius: none;
- 
-    
+
+.next-btn{
+    background-color: rgb(23, 105, 74);
+    text-align: center;
+    font-weight: 500;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+
+}
+
+.nav-link{
+    color: #000;
 }
